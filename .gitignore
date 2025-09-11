@@ -1,0 +1,15 @@
+# PowerShell artifacts
+*.psd1
+*.psm1
+*.ps1.xml
+
+# Sensitive outputs
+/output/
+*secrets*.csv
+Desktop/powerbi-app-secrets-*.csv
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+*.code-workspace
